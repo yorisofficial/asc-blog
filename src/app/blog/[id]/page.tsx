@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 export async function generateStaticParams() {
-	const res = await fetch("https://asiansurf.co/wp-json/wp/v2/posts/?per_page=10");
+	const res = await fetch("https://asiansurf.co/wp-json/wp/v2/posts/");
 
 	if (!res.ok) {
 		throw new Error("Failed to fetch data");
