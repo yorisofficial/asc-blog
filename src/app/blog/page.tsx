@@ -2,12 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 async function getData() {
-	const res = await fetch("https://asiansurf.co/wp-json/wp/v2/posts/", {
-		cache: "no-store",
-		next: {
-			revalidate: 10,
-		},
-	});
+	const res = await fetch("https://asiansurf.co/wp-json/wp/v2/posts/?per_page=5");
 
 	if (!res.ok) {
 		throw new Error("Failed to fetch data");
