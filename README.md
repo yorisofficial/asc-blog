@@ -1,3 +1,16 @@
+# Fetch data from Asian Surf Co
+I learn how to fetch data from company website ASC to take all post in blog, to make easy development in ASPA website. And of course TETAP HEMAT!
+
+ENDPOINT 
+### Get post
+`https://asiansurf.co/wp-json/wp/v2/posts/{id}`
+
+### Modify page per view
+`https://asiansurf.co/wp-json/wp/v2/posts/?per_page=100`
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
