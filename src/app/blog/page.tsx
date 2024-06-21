@@ -3,7 +3,12 @@ import Link from "next/link";
 import React from "react";
 
 async function getData() {
-	const res = await fetch("https://asiansurf.co/wp-json/wp/v2/posts/");
+	const res = await fetch("https://asiansurf.co/wp-json/wp/v2/posts/?per_page=10", {
+		cache: "no-store",
+		next: {
+			revalidate: 10,
+		},
+	});
 
 	if (!res.ok) {
 		throw new Error("Failed to fetch data");
@@ -19,7 +24,7 @@ const BlogPage = async () => {
 
 	return (
 		<div className="container mx-auto w-full max-w-5xl min-h-screen py-32 space-y-8">
-			<h1>Blog Page</h1>
+			<h1 className="text-3xl font-black">Blog Page</h1>
 			<div className="grid grid-cols-3 gap-4">
 				{data.length > 0 &&
 					data.map((post: any) => (
@@ -30,6 +35,7 @@ const BlogPage = async () => {
 							<div className="">
 								<h1>{post.title.rendered}</h1>
 								<p>Post at :{post.date}</p>
+								<p>Author at :{post.author}</p>
 							</div>
 							<div className="w-full mt-4">
 								<Link
