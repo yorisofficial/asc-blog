@@ -43,7 +43,7 @@ const BlogPage = async ({ params }: { params: { id: string } }) => {
 				<h1>{data.title.rendered}</h1>
 				<p>{data.date}</p>
 			</div>
-			<article className="prose prose-a:text-blue-600 hover:prose-a:text-blue-500 prose-p:text-white">
+			<article className="prose prose-a:text-blue-600 hover:prose-a:text-blue-500 prose-p:text-white prose-strong:text-white">
 				<div dangerouslySetInnerHTML={{ __html: data.content.rendered }} />
 			</article>
 		</div>
