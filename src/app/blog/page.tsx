@@ -2,7 +2,8 @@ import Link from "next/link";
 import React from "react";
 
 async function getData() {
-	const res = await fetch("https://asiansurf.co/wp-json/wp/v2/posts/?per_page=5");
+	const url = process.env.ASC_PUBLIC_POST || "";
+	const res = await fetch(`${url}/?per_page=9`);
 
 	if (!res.ok) {
 		throw new Error("Failed to fetch data");

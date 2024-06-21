@@ -2,7 +2,8 @@ import Link from "next/link";
 import React from "react";
 
 export async function generateStaticParams() {
-	const res = await fetch("https://asiansurf.co/wp-json/wp/v2/posts/");
+	const url = process.env.ASC_PUBLIC_POST || "";
+	const res = await fetch(`${url}/?per_page=9`);
 
 	if (!res.ok) {
 		throw new Error("Failed to fetch data");
@@ -16,7 +17,8 @@ export async function generateStaticParams() {
 }
 
 async function getData(id: string) {
-	const res = await fetch(`https://asiansurf.co/wp-json/wp/v2/posts/${id}`);
+	const url = process.env.ASC_PUBLIC_POST || "";
+	const res = await fetch(`${url}/${id}`);
 
 	if (!res.ok) {
 		throw new Error("Failed to fetch data");
