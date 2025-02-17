@@ -38,5 +38,37 @@
         "description": "A vital component of surf coaching, this course ensures instructors are equipped with globally recognized water safety skills.",
         "image": "/assets/program/isa-teams/isa-water-safety.webp",
         "link": "https://isasurf.org/learning/isa-courses/#water-safety"
+    },
+    {
+        "id": "5",
+        "sectionId": "isa-surf-coach-5",
+        "name": "ISA Surf Level 3 Instructor Certification",
+        "description": "For experienced instructors, the Level 3 course focuses on training advanced surfers. It prepares coaches to enhance athletes skills, optimize performance, and prepare them for competitions.",
+        "image": "/assets/program/isa-teams/isa-lv-3.webp",
+        "link": "https://isasurf.org/learning/isa-courses/#coaching"
+    },
+    {
+        "id": "6",
+        "sectionId": "isa-surf-coach-6",
+        "name": "ISA Surf Level 4 Instructor Certification",
+        "description": "For experienced instructors, the Level 4 course focuses on training elite surfers. It prepares coaches to enhance athletes skills, optimize performance, and prepare them for competitions.",
+        "image": "/assets/program/isa-teams/isa-lv-4.webp",
+        "link": "https://isasurf.org/learning/isa-courses/#coaching"
+    },
+    {
+        "id": "7",
+        "sectionId": "isa-surf-coach-7",
+        "name": "ISA Surf Level 5 Instructor Certification",
+        "description": "For experienced instructors, the Level 5 course focuses on training international surfers. It prepares coaches to enhance athletes skills, optimize performance, and prepare them for competitions.",
+        "image": "/assets/program/isa-teams/isa-lv-5.webp",
+        "link": "https://isasurf.org/learning/isa-courses/#coaching"
+    },
+    {
+        "id": "8",
+        "sectionId": "isa-surf-coach-8",
+        "name": "ISA Surf Level 6 Instructor Certification",
+        "description": "For experienced instructors, the Level 6 course focuses on training professional surfers. It prepares coaches to enhance athletes skills, optimize performance, and prepare them for competitions.",
+        "image": "/assets/program/isa-teams/isa-lv-6.webp",
+        "link": "https://isasurf.org/learning/isa-courses/#judging"
     }
 ]
