@@ -64,22 +64,6 @@
         "link": "https://isasurf.org/learning/isa-courses/#judging"
     },
     {
-        "id": "9",
-        "sectionId": "isa-surf-coach-9",
-        "name": "ISA Surf Level 7 Instructor Certification",
-        "description": "For experienced instructors, the Level 7 course focuses on training master surfers. It prepares coaches to enhance athletes skills, optimize performance, and prepare them for competitions.",
-        "image": "/assets/program/isa-teams/isa-lv-7.webp",
-        "link": "https://isasurf.org/learning/isa-courses/#coaching"
-    },
-    {
-        "id": "10",
-        "sectionId": "isa-surf-coach-10",
-        "name": "ISA Surf Level 8 Instructor Certification",
-        "description": "For experienced instructors, the Level 8 course focuses on training expert surfers. It prepares coaches to enhance athletes skills, optimize performance, and prepare them for competitions.",
-        "image": "/assets/program/isa-teams/isa-lv-8.webp",
-        "link": "https://isasurf.org/learning/isa-courses/#coaching"
-    },
-    {
         "id": "11",
         "sectionId": "isa-surf-coach-11",
         "name": "ISA Surf Level 9 Instructor Certification",
